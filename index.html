@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scitech</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="/img/Logo alone.png" type="image/x-icon">
+    <script src="./Js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+           <a class="navbar-brand nav-logo" href="#"><img src="./img/Logo.png" alt="" class=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Celulares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Computadoras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accesorios</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+         
+          <div class="d-flex align-items-center mx-auto pe-3">
+                <div class="nav-search pe-3">
+                    <div class="search">
+                    <p>Buscar Productos</p>
+                    <i class="bi bi-search"></i> 
+                 </div>
+                
+              </div>
+              <div class="nav-account d-flex align-content-center gap-3 pe-4" >
+                <div class="cart3 d-flex gap-1 hover tran cursor">
+                    <i class="bi bi-person-circle fs-2"></i>
+                    <p class="m-auto">Cuenta</p>
+                    </div>
+                    <div class="cart3 d-flex gap-1 hover tran cursor">
+                        <i class="bi bi-cart3 fs-2"></i>
+                        <p class="m-auto">Carrito</p>
+                    </div>
+              </div>
+            </div>
+            
+        </div>
+      </nav>
+      
+</header>
+
+<div class="container mt-4">
+    <div class="galerie-type d-flex gap-3">
+        <a id="categoryItem" class="category_item" category="all" >All</a>
+        <a  id="categoryItem" class="category_item" category="iphone">Iphone</a>
+        <a id="categoryItem" class="category_item" category="samsung">Samsung</a>
+        <a id="categoryItem" class="category_item" category="xiaomi">Xiaomi</a>
+        <a id="categoryItem" class="category_item" category="huawei">Huawei</a>
+        <a id="categoryItem" class="category_item" category="motorola">Motorola</a>
+    </div>
+
+    <div class="row mt-3 gy-3">
+        <div class="galerie-item col-md-3" category="samsung">
+            <div class="pr-item " category="samsung">
+                <div class="img">
+                    <img src="/img/Note 20.png" alt="">
+                </div>     
+                <div class="box-content">
+                    <h3>Note 20</h3>
+                    <h2 class="price">$1000 </h2>
+                   <div class="add">
+                    <a href="#" class="buy"><i class="bi bi-cart-plus-fill cart-plus"></i>Añadir al carrito</a>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="galerie-item col-md-3" category="iphone">
+            <div class="pr-item ">
+                <div class="img">
+                    <img src="/img/cpm-iphone-xs-silver.png" alt="">
+                </div>     
+                <div class="box-content">
+                    <h3>Iphone Xs</h3>
+                    <h2 class="price">$1000</h2>
+                   <div class="add">
+                    <a href="#" class="buy"><i class="bi bi-cart-plus-fill cart-plus"></i>Añadir al carrito</a>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="galerie-item col-md-3" category="xiaomi">
+            <div class="pr-item ">
+                <div class="img">
+                    <img src="/img/Xioami 11 Pro.png" alt="">
+                </div>     
+                <div class="box-content">
+                    <h3>11t Pro</h3>
+                    <h2 class="price">$1000</h2>
+                   <div class="add">
+                    <a href="#" class="buy"><i class="bi bi-cart-plus-fill cart-plus"></i>Añadir al carrito</a>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="galerie-item col-md-3" category="huawei">
+            <div class="pr-item ">
+                <div class="img">
+                    <img src="/img/Huawei Y9.png" alt="">
+                </div>     
+                <div class="box-content">
+                    <h3>Y9</h3>
+                    <h2 class="price">$1000</h2>
+                   <div class="add">
+                    <a href="#" class="buy"><i class="bi bi-cart-plus-fill cart-plus"></i>Añadir al carrito</a>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="galerie-item col-md-3" category="motorola">
+            <div class="pr-item ">
+                <div class="img">
+                    <img src="/img/Motorola edge 20.png" alt="">
+                </div>     
+                <div class="box-content">
+                    <h3>Edge 20</h3>
+                    <h2 class="price">$1000</h2>
+                   <div class="add">
+                    <a href="#" class="buy"><i class="bi bi-cart-plus-fill cart-plus"></i>Añadir al carrito</a>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+    
+
+    
+
+
+    
+        
+<script src="/js/galerie copy.js"></script>
+<script src="/js/galerie.js"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
